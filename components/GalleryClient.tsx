@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import type { Artwork } from "@/schemas/artworks";
-import type { Category } from "@/lib/categories";
+import type { Category } from "@/schemas/categories";
+
 
 export function GalleryClient({ artworks, categories }: { artworks: Artwork[]; categories: Category[] }) {
     const [selectedCategory, setSelectedCategory] = useState<number | null>(null);

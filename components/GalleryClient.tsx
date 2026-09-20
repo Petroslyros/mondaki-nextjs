@@ -20,7 +20,7 @@ export function GalleryClient({ artworks, categories }: { artworks: Artwork[]; c
             <div className="text-center mb-12">
                 <h1
                     className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-4 tracking-wide"
-                    style={{ fontFamily: "'Komika Hand', cursive" }}
+                    style={{ fontFamily: "'ComicBookFun', cursive" }}
                 >
                     Mondaki<span className="text-gray-500 dark:text-gray-400">Comics</span>
                 </h1>
